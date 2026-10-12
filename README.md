@@ -48,14 +48,14 @@ A API NestJS tem o prefixo global `api` (ex.: `POST /api/auth/login`).
 
 ```bash
 cd backend
-docker compose up --build
+docker compose up --build -d
 ```
 
 **Frontend** (em outro terminal):
 
 ```bash
 cd frontend
-docker compose up --build
+docker compose up --build -d
 ```
 
 Acesse:
