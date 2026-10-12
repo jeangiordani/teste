@@ -23,7 +23,7 @@ teste/
 | Node.js | **24.x** (backend) / 20.x (frontend) | Imagens Docker usam `node:24-bookworm-slim` e `node:20-alpine` |
 | npm | 11.x+ | instalado com o Node |
 | PostgreSQL | 18 | ou use o `docker-compose.yml` do backend |
-| Docker + Docker Compose | — | opcional, para subir tudo em containers |
+| Docker + Docker Compose | — | necessário para rodar os containers |
 
 > Com Docker instalado, não é necessário ter Node.js nem PostgreSQL locais.
 
